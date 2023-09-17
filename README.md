@@ -22,6 +22,14 @@ This repository is divided into three main sections:
 
 We start with a scenario where a financial institution wants to map its customers to various financial products. The initial model consists of two tables: `cliente` and `produto`. The modeling section provides a detailed explanation of the conceptual and logical models, highlighting key attributes, multivalued attributes, and relationship cardinalities.
 
+#### Conceptual Model
+
+![Conceptual Model](path_to_your_conceptual_image.jpg)
+
+#### Logical Model
+
+![Logical Model](path_to_your_logical_image.jpg)
+
 ### SQL Queries for PostgreSQL
 
 This section provides a set of SQL queries for a hypothetical e-commerce database. You'll learn how to:
