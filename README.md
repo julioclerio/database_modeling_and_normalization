@@ -28,7 +28,7 @@ We start with a scenario where a financial institution wants to map its customer
 
 #### Logical Model
 
-![Logical Model](path_to_your_logical_image.jpg)
+![Logical Model](logico_model_.png)
 
 ### SQL Queries for PostgreSQL
 
