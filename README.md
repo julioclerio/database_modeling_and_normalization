@@ -35,7 +35,7 @@ This section provides SQL queries for a hypothetical e-commerce database.
 - Calculate the average price of products for each category.
 
 **Files**:
-- `sql_queries_script.py` (Located in the `Part02` folder)
+- `2_consulta_sql_em_bd_postgres.ipynb` (Located in the `part_02` folder)
 
 ---
 
@@ -49,7 +49,7 @@ This section simulates a selection process for a data scientist role, focusing o
 - Update specific data conditions.
 
 **Files**:
-- `ddl_dml_operations_script.py` (Located in the `Part03` folder)
+- `3_intersecoes_alteracoes_remocoes_objetos_dados.ipynb` (Located in the `part_03` folder)
 
 ---
 
