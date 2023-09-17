@@ -24,7 +24,7 @@ We start with a scenario where a financial institution wants to map its customer
 
 #### Conceptual Model
 
-![Conceptual Model](path_to_your_conceptual_image.jpg)
+![Conceptual Model](conceptual_model.png)
 
 #### Logical Model
 
