@@ -2,53 +2,66 @@
 
 Welcome to the Database Assessment Repository! This repository is designed to guide you through the process of creating a relational database model for a financial institution and executing various SQL operations using PostgreSQL.
 
+All tasks are implemented in Python scripts using the `pymysql` library. Before running the scripts, ensure you have a relational database set up. If you don't, follow our [Docker Database Setup Guide](#docker-database-setup-guide) below.
+
 ## Table of Contents
 
-1. [Overview](#overview)
-2. [Database Modeling](#database-modeling)
-3. [SQL Queries for PostgreSQL](#sql-queries-for-postgresql)
-4. [DDL and DML Operations](#ddl-and-dml-operations)
+1. [Part 01: Relational Database Modeling](#part-01-relational-database-modeling)
+2. [Part 02: SQL Queries for PostgreSQL](#part-02-sql-queries-for-postgresql)
+3. [Part 03: DDL and DML Operations](#part-03-ddl-and-dml-operations)
+4. [Docker Database Setup Guide](#docker-database-setup-guide)
 5. [How to Use this Repository](#how-to-use-this-repository)
 
-### Overview
+---
 
-This repository is divided into three main sections:
+### Part 01: Relational Database Modeling
 
-- **Database Modeling**: Understand the conceptual and logical models for a financial institution.
-- **SQL Queries for PostgreSQL**: Learn and execute various SQL queries.
-- **DDL and DML Operations**: Dive deep into the creation and manipulation of database tables.
+This section focuses on designing a relational database for a financial institution. The scenario revolves around a bank wanting to map its customers to various financial products.
 
-### Database Modeling
+**Tasks**:
+- Create a conceptual model based on the initial sketch provided.
+- Develop a logical model respecting the first three normal forms.
 
-We start with a scenario where a financial institution wants to map its customers to various financial products. The initial model consists of two tables: `cliente` and `produto`. The modeling section provides a detailed explanation of the conceptual and logical models, highlighting key attributes, multivalued attributes, and relationship cardinalities.
+**Files**:
+- `modeling_script.py` (Located in the `Part01` folder)
 
-#### Conceptual Model
+---
 
-![Conceptual Model](conceptual_model.png)
+### Part 02: SQL Queries for PostgreSQL
 
-#### Logical Model
+This section provides SQL queries for a hypothetical e-commerce database.
 
-![Logical Model](logico_model_.png)
-
-### SQL Queries for PostgreSQL
-
-This section provides a set of SQL queries for a hypothetical e-commerce database. You'll learn how to:
-
+**Tasks**:
 - List products based on price and name.
 - Compare product prices against the average.
 - Calculate the average price of products for each category.
 
-### DDL and DML Operations
+**Files**:
+- `sql_queries_script.py` (Located in the `Part02` folder)
 
-Experience the process of creating and manipulating tables in PostgreSQL. This section is inspired by a selection process for a data scientist role. You'll learn how to:
+---
 
+### Part 03: DDL and DML Operations
+
+This section simulates a selection process for a data scientist role, focusing on creating and manipulating tables in PostgreSQL.
+
+**Tasks**:
 - Create tables representing a 1,n relationship between `aluno` and `turma`.
 - Insert data into these tables.
-- Update data based on specific conditions.
+- Update specific data conditions.
 
-### How to Use this Repository
+**Files**:
+- `ddl_dml_operations_script.py` (Located in the `Part03` folder)
 
-- **Clone the Repository**: To get started, clone this repository to your local machine using `git clone [repository-link]`.
-- **Navigate to the Files**: Each section has its dedicated folder. Navigate to the desired section to access the related files.
-- **Execute SQL Queries**: If you have PostgreSQL installed, you can execute the provided SQL queries directly. Make sure to set up the database as described in the respective section.
-- **Feedback and Contributions**: Feel free to raise issues or submit pull requests if you have suggestions or improvements.
+---
+
+### Docker Database Setup Guide
+
+If you don't have a relational database set up, you can easily create one using Docker. Here's a step-by-step guide:
+
+1. **Install Docker**:
+   - [Download Docker](https://www.docker.com/products/docker-desktop) and follow the installation instructions for your operating system.
+
+2. **Pull a PostgreSQL Image**:
+   ```bash
+   docker pull postgres
