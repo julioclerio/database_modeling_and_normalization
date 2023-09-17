@@ -9,8 +9,6 @@ All tasks are implemented in Python scripts using the `pymysql` library. Before 
 1. [Part 01: Relational Database Modeling](#part-01-relational-database-modeling)
 2. [Part 02: SQL Queries for PostgreSQL](#part-02-sql-queries-for-postgresql)
 3. [Part 03: DDL and DML Operations](#part-03-ddl-and-dml-operations)
-4. [Docker Database Setup Guide](#docker-database-setup-guide)
-5. [How to Use this Repository](#how-to-use-this-repository)
 
 ---
 
@@ -55,13 +53,3 @@ This section simulates a selection process for a data scientist role, focusing o
 
 ---
 
-### Docker Database Setup Guide
-
-If you don't have a relational database set up, you can easily create one using Docker. Here's a step-by-step guide:
-
-1. **Install Docker**:
-   - [Download Docker](https://www.docker.com/products/docker-desktop) and follow the installation instructions for your operating system.
-
-2. **Pull a PostgreSQL Image**:
-   ```bash
-   docker pull postgres
