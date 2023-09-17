@@ -21,7 +21,7 @@ This section focuses on designing a relational database for a financial institut
 - Develop a logical model respecting the first three normal forms.
 
 **Files**:
-- `modeling_script.py` (Located in the `Part01` folder)
+- `1_modelagem_novalizacao_bd_relacionais.ipynb` (Located in the `part_01` folder)
 
 ---
 
